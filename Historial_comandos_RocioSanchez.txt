@@ -1,0 +1,79 @@
+ll
+ls -ls 
+cd repogit
+ll
+$HOME/repogit/
+pwd
+git clone git@github.com:SanchezRoxio/TP_AySO.git
+yes
+ll
+cd repogit
+$HOME/repogit
+clear
+git clone git@github.com:SanchezRoxio/TP_AySO.git
+git status
+clear
+ls -ls
+clear
+ls
+cd TP_AySO
+git status
+ls
+clear
+pwd
+history
+git status
+ls -l
+touch archivo
+ll
+git status
+git add .
+git status
+git commit -m "add: Primer commit"
+git config --global user.name "sanchezmaribel.ro@gmail.com"
+git config --global user.name "Rocio Sanchez"
+git config --global user.email "sanchezmaribel.ro@gmail.com"
+git congif user.name
+git config user.name
+git config user.email
+git status
+git commit -m "add: Primer commit"
+git status
+git push origin master
+git push origin main
+git status
+clear
+git status
+man grep
+clear
+ls -l
+cat etc/os-release
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+git status
+git add
+git add .
+git status
+git commit -m"Add: Agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+history -a
+ls -l
+cat /proc/cpuinfo | grep -i proce | tail -n1
+git status
+cat /proc/cpuinfo | grep -i proce | tail -n1
+cat /proc/cpuinfo | grep -i proce | tail -n1 >> datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+history -a 
+ls -l
+git status
+git push origin master
+git push origin main
+git status
+history
+$HOME/.bash_history
+git clone .bash_history 
+history -a

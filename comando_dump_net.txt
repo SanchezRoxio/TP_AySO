@@ -1,0 +1,2 @@
+El comando para realizar un dump traffic de la red es tcpdump
+Lo encontre con: man -k palabra_abuscar

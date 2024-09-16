@@ -1,1 +1,3 @@
-Alumno: Sanchez Rocio. Turno: Noche.
+Alumna: Sanchez Rocio
+Division: 313
+Turno: Noche

@@ -1,154 +1,184 @@
-ll
-ls -ls 
-cd repogit
-ll
-$HOME/repogit/
-pwd
-git clone git@github.com:SanchezRoxio/TP_AySO.git
-yes
-ll
-cd repogit
-$HOME/repogit
-clear
-git clone git@github.com:SanchezRoxio/TP_AySO.git
-git status
-clear
-ls -ls
-clear
-ls
-cd TP_AySO
-git status
-ls
-clear
-pwd
-history
-git status
-ls -l
-touch archivo
-ll
-git status
-git add .
-git status
-git commit -m "add: Primer commit"
-git config --global user.name "sanchezmaribel.ro@gmail.com"
-git config --global user.name "Rocio Sanchez"
-git config --global user.email "sanchezmaribel.ro@gmail.com"
-git congif user.name
-git config user.name
-git config user.email
-git status
-git commit -m "add: Primer commit"
-git status
-git push origin master
-git push origin main
-git status
-clear
-git status
-man grep
-clear
-ls -l
-cat etc/os-release
-whoami
-echo "Usuario=$(whoami)">datos_usuario.txt
-git status
-git add
-git add .
-git status
-git commit -m"Add: Agregado 1er ejercicio sobre datos_usuarios.txt"
-git status
-history -a
-ls -l
-cat /proc/cpuinfo | grep -i proce | tail -n1
-git status
-cat /proc/cpuinfo | grep -i proce | tail -n1
-cat /proc/cpuinfo | grep -i proce | tail -n1 >> datos_usuario.txt
-git status
-git add .
-git status
-git commit -m "feat: Añadiendo informacion de CPU"
-git status
-history -a 
-ls -l
-git status
-git push origin master
-git push origin main
-git status
-history
-$HOME/.bash_history
-git clone .bash_history 
-history -a
-cp ~/.bash_history Historial_comandos_RocioSanchez.txt
-ls
-git status
-git add .
-git commit -m"Agrego el historial"
-git push origin main
-history
-sudo app update ; sudo apt install tree
-git status
-clear
-vagrant halt
-clear
-exit
-touch lista_ordenada.txt
-pwd
-git status
-exit
-sts . .ttADaAdddddddddddddaAadADADDASDOLÑASAIDIOSn mmhisas
-pwd
-ls -l
-cd repogit 
-ls -l
-cd TP_AySO
-ls -l
-cd ..
-ls -l
-cd ..
-ls -l
-rm -r lista_ordenada.txt 
-ls -l
-cd repogit/
-cd TP_AySO/
-touch lista_ordenada.txt
-ls -l
-grep -v "nologin" /etc/passwd | sort -t: -k7 | head -10>> "lista_ordenada.txt"
-cat lista_ordenada.txt 
-git status
-git add .
-git commit -m "Add: Listado de usuarios ordenada" 
-git status
-git push origin main
-ls -l
-touch comando_dump_net.txt
-ls -l
-echo "El comando para realizar un dump traffic de la red es tcpdump"
-echo "El comando para realizar un dump traffic de la red es tcpdump" > comando_dump_net.txt 
-echo "Lo encontre con: man -k palabra_abuscar" >> comando_dump_net.txt 
-git status
-cat comando_dump_net.txt 
-git add .
-git status
-git commit -m "Add: Comando para capturar y analizar el trafico de red :D"
-git push origin main 
-cat <<EOF >> README.md 
-Alumno: Sanchez Rocio
-ls -l
+    1  ll
+    2  ls -ls 
+    3  cd repogit
+    4  ll
+    5  $HOME/repogit/
+    6  pwd
+    7  git clone git@github.com:SanchezRoxio/TP_AySO.git
+    8  yes
+    9  ll
+   10  cd repogit
+   11  $HOME/repogit
+   12  clear
+   13  git clone git@github.com:SanchezRoxio/TP_AySO.git
+   14  git status
+   15  clear
+   16  ls -ls
+   17  clear
+   18  ls
+   19  cd TP_AySO
+   20  git status
+   21  ls
+   22  clear
+   23  pwd
+   24  history
+   25  git status
+   26  ls -l
+   27  touch archivo
+   28  ll
+   29  git status
+   30  git add .
+   31  git status
+   32  git commit -m "add: Primer commit"
+   33  git config --global user.name "sanchezmaribel.ro@gmail.com"
+   34  git config --global user.name "Rocio Sanchez"
+   35  git config --global user.email "sanchezmaribel.ro@gmail.com"
+   36  git congif user.name
+   37  git config user.name
+   38  git config user.email
+   39  git status
+   40  git commit -m "add: Primer commit"
+   41  git status
+   42  git push origin master
+   43  git push origin main
+   44  git status
+   45  clear
+   46  git status
+   47  man grep
+   48  clear
+   49  ls -l
+   50  cat etc/os-release
+   51  whoami
+   52  echo "Usuario=$(whoami)">datos_usuario.txt
+   53  git status
+   54  git add
+   55  git add .
+   56  git status
+   57  git commit -m"Add: Agregado 1er ejercicio sobre datos_usuarios.txt"
+   58  git status
+   59  history -a
+   60  ls -l
+   61  cat /proc/cpuinfo | grep -i proce | tail -n1
+   62  git status
+   63  cat /proc/cpuinfo | grep -i proce | tail -n1
+   64  cat /proc/cpuinfo | grep -i proce | tail -n1 >> datos_usuario.txt
+   65  git status
+   66  git add .
+   67  git status
+   68  git commit -m "feat: Añadiendo informacion de CPU"
+   69  git status
+   70  history -a 
+   71  ls -l
+   72  git status
+   73  git push origin master
+   74  git push origin main
+   75  git status
+   76  history
+   77  $HOME/.bash_history
+   78  git clone .bash_history 
+   79  history -a
+   80  cp ~/.bash_history Historial_comandos_RocioSanchez.txt
+   81  ls
+   82  git status
+   83  git add .
+   84  git commit -m"Agrego el historial"
+   85  git push origin main
+   86  history
+   87  sudo app update ; sudo apt install tree
+   88  git status
+   89  clear
+   90  vagrant halt
+   91  clear
+   92  exit
+   93  touch lista_ordenada.txt
+   94  pwd
+   95  git status
+   96  exit
+   97  sts . .ttADaAdddddddddddddaAadADADDASDOLÑASAIDIOSn mmhisas
+   98  pwd
+   99  ls -l
+  100  cd repogit 
+  101  ls -l
+  102  cd TP_AySO
+  103  ls -l
+  104  cd ..
+  105  ls -l
+  106  cd ..
+  107  ls -l
+  108  rm -r lista_ordenada.txt 
+  109  ls -l
+  110  cd repogit/
+  111  cd TP_AySO/
+  112  touch lista_ordenada.txt
+  113  ls -l
+  114  grep -v "nologin" /etc/passwd | sort -t: -k7 | head -10>> "lista_ordenada.txt"
+  115  cat lista_ordenada.txt 
+  116  git status
+  117  git add .
+  118  git commit -m "Add: Listado de usuarios ordenada" 
+  119  git status
+  120  git push origin main
+  121  ls -l
+  122  touch comando_dump_net.txt
+  123  ls -l
+  124  echo "El comando para realizar un dump traffic de la red es tcpdump"
+  125  echo "El comando para realizar un dump traffic de la red es tcpdump" > comando_dump_net.txt 
+  126  echo "Lo encontre con: man -k palabra_abuscar" >> comando_dump_net.txt 
+  127  git status
+  128  cat comando_dump_net.txt 
+  129  git add .
+  130  git status
+  131  git commit -m "Add: Comando para capturar y analizar el trafico de red :D"
+  132  git push origin main 
+  133  cat <<EOF >> README.md 
+  134  Alumno: Sanchez Rocio
+  135  ls -l
+  136  Division: 313
+  137  Turno: Noche
+  138  clear
+  139  clear
+  140  echo "Alumno: Sanchez Rocio. Turno: Noche."> README.md 
+  141  cat README.md 
+  142  git status
+  143  git commit -m "Add:README"git status
+  144  git status
+  145  git add .
+  146  git commit -m "Add: Readme"
+  147  git push origin main
+  148  history
+  149  eggggg"dklsdñlacecdDDDdDDDDdDDDuuurunnnmo............. R R   
+  150  adddaAADDDdddm hishihadhhhhyaaaaagitatus
+  151  history
+  152  history -a
+  153  cp \$HOME/.bash_history
+  154  cp $HOME/.bash_history
+  155  cp ~/.bash_history Historial_comandos_RocioSanchez.txt
+  156  git status
+  157  ls -l
+  158  git add .
+  159  clear
+  160  history
+  161  git status
+  162  ls -l
+  163  cd repogit/
+  164  git status
+  165  ls -l
+  166  cd TP_AySO/
+  167  ls -l
+  168  git status
+  169  cp ~/.bash_history Historial_comandos_RocioSanchez.txt
+  170  git status
+  171  git commit -m "vuelvo a agregar el historial"
+  172  git add -
+  173  git add .
+  174  git commit -m "vuelvo a agregar el historial"
+  175  git push origin main
+  176  git status
+  177  cat << FIN > README.md 
+Alumna: Sanchez Rocio
 Division: 313
 Turno: Noche
-clear
+FIN
 
-clear
-echo "Alumno: Sanchez Rocio. Turno: Noche."> README.md 
-cat README.md 
-git status
-git commit -m "Add:README"git status
-git status
-git add .
-git commit -m "Add: Readme"
-git push origin main
-history
-eggggg"dklsdñlacecdDDDdDDDDdDDDuuurunnnmo............. R R   
-
-adddaAADDDdddm hishihadhhhhyaaaaagitatus
-history
-history -a
+  178  tail README.md 
+  179  history > Historial_comandos_RocioSanchez.txt 

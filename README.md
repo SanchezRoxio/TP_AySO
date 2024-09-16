@@ -1,2 +1,1 @@
-# TP_AySO
- Arquitectura y Sistemas Operativos 
+Alumno: Sanchez Rocio. Turno: Noche.

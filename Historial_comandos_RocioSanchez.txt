@@ -175,10 +175,28 @@
   175  git push origin main
   176  git status
   177  cat << FIN > README.md 
-Alumna: Sanchez Rocio
-Division: 313
-Turno: Noche
-FIN
-
-  178  tail README.md 
-  179  history > Historial_comandos_RocioSanchez.txt 
+  178  Alumna: Sanchez Rocio
+  179  Division: 313
+  180  Turno: Noche
+  181  FIN
+  182  tail README.md 
+  183  history > Historial_comandos_RocioSanchez.txt 
+  184  git status
+  185  git add . 
+  186  git commit -m "ADD: Agrego el readme y el historial nuevamente"
+  187  git push origin main
+  188  history
+  189  sudo apt update
+  190  sudo apt install tree -y
+  191  clear
+  192  LS -L
+  193  ls -l
+  194  cd repogit/
+  195  cd TP_AySO/
+  196  lsb_release -a
+  197  id
+  198  sudo cat /etc/sudoers.d/vagrant
+  199  sudo whoami
+  200  whoami
+  201  history -a
+  202  history > Historial_comandos_RocioSanchez.txt 
